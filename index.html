@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stockbridge Pro Plumbing & Emergency Repair Services | 24/7 Local Plumbers</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            blue: '#0284c7',
+                            darkblue: '#0f172a',
+                            orange: '#f97316',
+                            orangehover: '#ea580c',
+                            lightbg: '#f8fafc'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans bg-brand-lightbg text-slate-800 antialiased selection:bg-brand-orange selection:text-white">
+
+    <!-- Top Emergency Bar -->
+    <div class="bg-brand-darkblue text-white py-2 px-4 text-xs sm:text-sm font-medium">
+        <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+            <div class="flex items-center space-x-3">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-red-600 text-white animate-pulse">
+                    <i class="fa-solid fa-bolt mr-1"></i> 24/7 DISPATCH
+                </span>
+                <span class="hidden sm:inline text-slate-300">Serving Stockbridge, GA & Surrounding Henry County</span>
+            </div>
+            <div class="flex items-center space-x-6 text-slate-300">
+                <span class="hidden md:inline"><i class="fa-solid fa-clock text-brand-orange mr-1"></i> Arrival Time: ~30-45 Mins</span>
+                <a href="tel:7735143245" class="hover:text-brand-orange transition font-bold text-white flex items-center">
+                    <i class="fa-solid fa-phone text-brand-orange mr-1.5"></i> (773) 514-3245
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-brand-blue to-cyan-500 flex items-center justify-center text-white text-2xl shadow-md shadow-brand-blue/30">
+                        <i class="fa-solid fa-faucet-drip"></i>
+                    </div>
+                    <div>
+                        <span class="text-xl font-extrabold text-slate-900 tracking-tight block leading-none">STOCKBRIDGE</span>
+                        <span class="text-xs font-bold text-brand-blue tracking-widest uppercase">Pro Plumbing & Repairs</span>
+                    </div>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="hidden md:flex items-center space-x-8 font-medium text-slate-600">
+                    <a href="#services" class="hover:text-brand-blue transition">Services</a>
+                    <a href="#why-us" class="hover:text-brand-blue transition">Why Choose Us</a>
+                    <a href="#pricing" class="hover:text-brand-blue transition">Rates</a>
+                    <a href="#reviews" class="hover:text-brand-blue transition">Reviews</a>
+                </div>
+
+                <!-- Primary CTA Button -->
+                <div class="flex items-center space-x-3">
+                    <a href="tel:7735143245" class="bg-brand-orange hover:bg-brand-orangehover text-white px-5 py-3 rounded-xl font-bold transition shadow-lg shadow-brand-orange/30 flex items-center group">
+                        <i class="fa-solid fa-phone-volume mr-2 group-hover:rotate-12 transition transform"></i>
+                        <span>CALL NOW</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-b from-slate-900 via-slate-800 to-brand-darkblue text-white overflow-hidden py-16 lg:py-24">
+        <!-- Background Pattern Deco -->
+        <div class="absolute inset-0 opacity-10 pointer-events-none">
+            <div class="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-brand-blue blur-3xl"></div>
+            <div class="absolute top-1/2 -left-24 w-96 h-96 rounded-full bg-brand-orange blur-3xl"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Hero Text -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 bg-brand-blue/20 border border-brand-blue/40 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold text-cyan-300">
+                        <i class="fa-solid fa-shield-halved text-brand-orange"></i>
+                        <span>Licensed, Insured & Local to Stockbridge, GA</span>
+                    </div>
+
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
+                        Fast, Reliable <br class="hidden sm:inline">
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-brand-blue">Local Plumbing</span>
+                        & Emergency Repair
+                    </h1>
+
+                    <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+                        Clogged drains, leaking pipes, broken water heaters, or furnace issues? We deliver immediate 24/7 service with upfront flat-rate pricing and zero hidden fees.
+                    </p>
+
+                    <!-- Trust Badges -->
+                    <div class="grid grid-cols-3 gap-4 pt-2 max-w-lg mx-auto lg:mx-0 text-left">
+                        <div class="flex items-center space-x-2 bg-white/5 p-2.5 rounded-lg border border-white/10">
+                            <i class="fa-solid fa-truck-fast text-brand-orange text-xl"></i>
+                            <div>
+                                <p class="text-xs text-slate-400">Response</p>
+                                <p class="text-xs font-bold text-white">30 Min Arrival</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-2 bg-white/5 p-2.5 rounded-lg border border-white/10">
+                            <i class="fa-solid fa-dollar-sign text-emerald-400 text-xl"></i>
+                            <div>
+                                <p class="text-xs text-slate-400">Pricing</p>
+                                <p class="text-xs font-bold text-white">Free Estimate</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-2 bg-white/5 p-2.5 rounded-lg border border-white/10">
+                            <i class="fa-solid fa-star text-amber-400 text-xl"></i>
+                            <div>
+                                <p class="text-xs text-slate-400">Rating</p>
+                                <p class="text-xs font-bold text-white">5.0 Star Rated</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Call & Action Buttons -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                        <a href="tel:7735143245" class="w-full sm:w-auto bg-brand-orange hover:bg-brand-orangehover text-white text-lg font-bold px-8 py-4 rounded-xl transition shadow-xl shadow-brand-orange/40 flex items-center justify-center gap-3">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>Call (773) 514-3245</span>
+                        </a>
+                        <a href="#booking" class="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white font-semibold px-6 py-4 rounded-xl border border-white/20 transition flex items-center justify-center gap-2">
+                            <span>Request Online Quote</span>
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Quick Booking Card -->
+                <div class="lg:col-span-5">
+                    <div class="bg-white rounded-2xl shadow-2xl p-6 sm:p-8 text-slate-800 relative border border-slate-100">
+                        <div class="bg-brand-blue text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full inline-block mb-3">
+                            Get Immediate Response
+                        </div>
+                        <h2 class="text-2xl font-bold text-slate-900 mb-1">Request a Free Estimate</h2>
+                        <p class="text-xs text-slate-500 mb-6">Fill out the quick form below for instant callback from our technician.</p>
+
+                        <form id="hero-quote-form" onsubmit="handleQuoteSubmit(event)" class="space-y-4">
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Your Name</label>
+                                <input type="text" required placeholder="John Doe" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-brand-blue focus:border-brand-blue outline-none transition text-sm">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Phone Number</label>
+                                <input type="tel" required placeholder="(773) 514-3245" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-brand-blue focus:border-brand-blue outline-none transition text-sm">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Service Needed</label>
+                                <select class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-brand-blue focus:border-brand-blue outline-none transition text-sm text-slate-700">
+                                    <option>Emergency Plumbing Repair</option>
+                                    <option>Drain Cleaning / Unclogging</option>
+                                    <option>Water Heater Repair / Replace</option>
+                                    <option>Faucet / Pipe Leak Repair</option>
+                                    <option>HVAC / AC / Heating Repair</option>
+                                    <option>Other / General Maintenance</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="w-full bg-brand-blue hover:bg-sky-600 text-white font-bold py-3.5 rounded-xl transition shadow-lg shadow-brand-blue/30 text-sm flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <span>Get My Free Quote</span>
+                            </button>
+                        </form>
+                        <p class="text-[11px] text-center text-slate-400 mt-3">
+                            <i class="fa-solid fa-lock text-slate-300"></i> Your information is kept 100% private.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-blue font-bold text-xs uppercase tracking-widest bg-brand-50 px-3 py-1 rounded-full border border-brand-blue/20">Full Service Solutions</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3 tracking-tight">Expert Plumbing & Repair Services</h2>
+                <p class="text-slate-600 mt-3 text-base">From emergency line leaks to full system installs, our skilled team is equipped with advanced tools to fix the issue right the first time.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Service 1 -->
+                <div class="bg-brand-lightbg rounded-2xl p-6 border border-slate-200/80 hover:border-brand-blue hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-blue-100 text-brand-blue rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 group-hover:bg-brand-blue group-hover:text-white transition transform">
+                        <i class="fa-solid fa-soap"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Drain Cleaning</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">Fast clearing of clogged sinks, showers, toilets, and main sewer drain lines using modern augers and hydro-jetting.</p>
+                    <span class="text-xs font-bold text-brand-blue flex items-center gap-1 group-hover:translate-x-1 transition">
+                        Learn More <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                    </span>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-brand-lightbg rounded-2xl p-6 border border-slate-200/80 hover:border-brand-blue hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 group-hover:bg-amber-600 group-hover:text-white transition transform">
+                        <i class="fa-solid fa-fire-flame-curved"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Water Heaters</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">Complete repair, flushing, and installation for conventional tank and modern tankless water heater units.</p>
+                    <span class="text-xs font-bold text-brand-blue flex items-center gap-1 group-hover:translate-x-1 transition">
+                        Learn More <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                    </span>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-brand-lightbg rounded-2xl p-6 border border-slate-200/80 hover:border-brand-blue hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-cyan-100 text-cyan-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 group-hover:bg-cyan-600 group-hover:text-white transition transform">
+                        <i class="fa-solid fa-wrench"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Pipe & Leak Repair</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">Accurate leak detection and fast repairs for burst pipes, valve replacements, faucets, and garbage disposals.</p>
+                    <span class="text-xs font-bold text-brand-blue flex items-center gap-1 group-hover:translate-x-1 transition">
+                        Learn More <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                    </span>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-brand-lightbg rounded-2xl p-6 border border-slate-200/80 hover:border-brand-blue hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-rose-100 text-rose-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:scale-110 group-hover:bg-rose-600 group-hover:text-white transition transform">
+                        <i class="fa-solid fa-temperature-arrow-up"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Heating & AC Check</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">Thermostat replacements, air filter checks, heat coil servicing, and AC air flow troubleshooting for your home.</p>
+                    <span class="text-xs font-bold text-brand-blue flex items-center gap-1 group-hover:translate-x-1 transition">
+                        Learn More <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Highlight Banner -->
+    <section id="pricing" class="py-12 bg-gradient-to-r from-brand-blue to-cyan-600 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="text-center md:text-left">
+                    <span class="bg-white/20 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Upfront & Honest</span>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold mt-2">Transparent Local Service Rates</h2>
+                    <p class="text-cyan-100 text-sm mt-1">Free in-person estimates with no hidden surprise fees on invoice day.</p>
+                </div>
+                <div class="flex items-center gap-6 bg-white/10 p-4 rounded-2xl border border-white/20 backdrop-blur-sm">
+                    <div class="text-center border-r border-white/20 pr-6">
+                        <p class="text-xs text-cyan-200">Starting At Only</p>
+                        <p class="text-3xl sm:text-4xl font-extrabold text-white">$21</p>
+                        <p class="text-[10px] text-cyan-200">Diagnostic / Consultation</p>
+                    </div>
+                    <a href="tel:7735143245" class="bg-brand-orange hover:bg-brand-orangehover text-white font-bold px-6 py-3 rounded-xl transition text-sm shadow-md">
+                        Get Estimate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us" class="py-20 bg-brand-lightbg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                
+                <div>
+                    <span class="text-brand-blue font-bold text-xs uppercase tracking-widest">Why Stockbridge Prefers Us</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-2 tracking-tight">Dedicated Local Technicians Ready When You Need Us</h2>
+                    <p class="text-slate-600 mt-4 leading-relaxed">We know that a plumbing emergency can wreck your home and schedule. That's why we bring fast response times, experienced licensed plumbers, and high-quality equipment right to your doorstep in Stockbridge and surrounding areas.</p>
+
+                    <div class="space-y-4 mt-8">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 font-bold">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Licensed & Fully Insured</h4>
+                                <p class="text-sm text-slate-600">Complete peace of mind knowing your property is protected by verified professionals.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 font-bold">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Direct Technician Communication</h4>
+                                <p class="text-sm text-slate-600">No pushy call centers. Speak directly with the plumber handling your repair.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center shrink-0 font-bold">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">100% Satisfaction Guarantee</h4>
+                                <p class="text-sm text-slate-600">We stand behind all of our labor and parts replacement with a full service guarantee.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stats / Graphic Grid -->
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 text-center">
+                        <p class="text-4xl font-black text-brand-blue mb-1">24/7</p>
+                        <p class="text-xs font-bold uppercase text-slate-500">Emergency Dispatch</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 text-center">
+                        <p class="text-4xl font-black text-brand-orange mb-1">5.0★</p>
+                        <p class="text-xs font-bold uppercase text-slate-500">Customer Rating</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 text-center">
+                        <p class="text-4xl font-black text-emerald-600 mb-1">&lt;45m</p>
+                        <p class="text-xs font-bold uppercase text-slate-500">Avg Arrival Time</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 text-center">
+                        <p class="text-4xl font-black text-purple-600 mb-1">100%</p>
+                        <p class="text-xs font-bold uppercase text-slate-500">Upfront Quotes</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-brand-blue font-bold text-xs uppercase tracking-widest">Real Customer Feedback</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 mt-2">What Stockbridge Homeowners Say</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Review 1 -->
+                <div class="bg-brand-lightbg p-6 rounded-2xl border border-slate-200 relative">
+                    <div class="flex text-amber-400 text-sm mb-3">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-700 text-sm italic mb-6">"Had a major pipe leak under my kitchen sink on a Sunday evening. Called their phone number and they were at my house in less than 40 minutes. Fixed it quickly and charged a very fair rate!"</p>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-full bg-brand-blue text-white font-bold flex items-center justify-center text-sm">
+                            MH
+                        </div>
+                        <div>
+                            <p class="font-bold text-slate-900 text-sm">Marcus H.</p>
+                            <p class="text-xs text-slate-500">Stockbridge, GA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-brand-lightbg p-6 rounded-2xl border border-slate-200 relative">
+                    <div class="flex text-amber-400 text-sm mb-3">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-700 text-sm italic mb-6">"Our hot water heater stopped working completely. They gave me a free estimate over the phone, showed up on time, and had hot water running again the same afternoon."</p>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-full bg-brand-orange text-white font-bold flex items-center justify-center text-sm">
+                            SD
+                        </div>
+                        <div>
+                            <p class="font-bold text-slate-900 text-sm">Sarah D.</p>
+                            <p class="text-xs text-slate-500">Henry County, GA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-brand-lightbg p-6 rounded-2xl border border-slate-200 relative">
+                    <div class="flex text-amber-400 text-sm mb-3">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-700 text-sm italic mb-6">"Super respectful, honest, and fast. Cleared out our main sewer line blockage without trying to upsell us on stuff we didn't need. Highly recommended local plumber!"</p>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-full bg-emerald-600 text-white font-bold flex items-center justify-center text-sm">
+                            TJ
+                        </div>
+                        <div>
+                            <p class="font-bold text-slate-900 text-sm">Thomas J.</p>
+                            <p class="text-xs text-slate-500">Stockbridge, GA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-darkblue text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-10 h-10 rounded-lg bg-brand-blue flex items-center justify-center text-white text-xl">
+                            <i class="fa-solid fa-faucet-drip"></i>
+                        </div>
+                        <span class="text-lg font-bold text-white">Stockbridge Pro Plumbing</span>
+                    </div>
+                    <p class="text-sm text-slate-400">Licensed and insured emergency plumbing and home maintenance services serving Stockbridge, GA (30281) and surrounding areas.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Service Area</h4>
+                    <ul class="text-sm space-y-2">
+                        <li><i class="fa-solid fa-location-dot text-brand-orange mr-2"></i> Stockbridge, GA 30281</li>
+                        <li><i class="fa-solid fa-location-dot text-brand-orange mr-2"></i> McDonough & Henry County</li>
+                        <li><i class="fa-solid fa-location-dot text-brand-orange mr-2"></i> Surrounding Metro Areas</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Immediate Contact</h4>
+                    <p class="text-2xl font-black text-white mb-2">(773) 514-3245</p>
+                    <p class="text-xs text-slate-400 mb-4">Available 24 Hours a Day, 7 Days a Week</p>
+                    <a href="tel:7735143245" class="inline-block bg-brand-orange text-white text-xs font-bold px-4 py-2 rounded-lg hover:bg-brand-orangehover transition">
+                        Call Emergency Plumber
+                    </a>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
+                &copy; 2026 Stockbridge Pro Plumbing & Repairs. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Modal Notification -->
+    <div id="toast-modal" class="fixed bottom-4 right-4 bg-slate-900 text-white p-4 rounded-xl shadow-2xl border border-slate-700 hidden z-50 max-w-sm">
+        <div class="flex items-center space-x-3">
+            <div class="w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <div>
+                <p class="font-bold text-xs" id="toast-title">Quote Request Received!</p>
+                <p class="text-[11px] text-slate-300" id="toast-body">Our technician will call you back shortly.</p>
+            </div>
+            <button onclick="closeToast()" class="text-slate-400 hover:text-white text-xs ml-auto">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Script for Form Actions -->
+    <script>
+        function handleQuoteSubmit(event) {
+            event.preventDefault();
+            const form = event.target;
+            form.reset();
+            
+            const toast = document.getElementById('toast-modal');
+            toast.classList.remove('hidden');
+            
+            setTimeout(() => {
+                closeToast();
+            }, 5000);
+        }
+
+        function closeToast() {
+            document.getElementById('toast-modal').classList.add('hidden');
+        }
+    </script>
+
+</body>
+</html>
